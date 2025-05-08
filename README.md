@@ -15,7 +15,7 @@ Create a python environment and install the dependencies.
 
 ### Pros and Cons of RepE method
 
-### **Pros**
+#### **Pros**
 
 * **Better Understanding**
 
@@ -36,7 +36,7 @@ Create a python environment and install the dependencies.
 
 ---
 
-### **Cons**
+#### **Cons**
 
 * **Same Direction for All Inputs**
 
@@ -52,5 +52,12 @@ Create a python environment and install the dependencies.
 
   * The results depend on how you choose example pairs and tasks.
   * Small changes in settings can affect how well it works.
+
+
+
+
+### How this would help in advancing Responsible AI?
+
+RepE enables direct interpretation and control of high-level concepts within a mondel's internal representations. This allows identification and understanding of how the model represents complex concepts within itself. The control allows manipulation of the concepts and steer the model towards wthical behaviours, non-risky and fair responses. Overall, it will contribute to development of safer AI models and more trustworthy systems.
 
 ---
