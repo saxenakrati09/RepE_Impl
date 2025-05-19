@@ -111,11 +111,6 @@ def plot_detection_results(input_ids, rep_reader_scores_dict, THRESHOLD, seed=1)
     # Process input tokens to remove special characters for better visualization
     words = [token.replace('Ġ', '').replace('Ċ', ' ') for token in input_ids]
 
-    # Initialize variables for iteration and word width
-    y_pad = 0.3
-    word_width = 0
-    iter = 0
-
     # Define the concepts and styles for visualization
     selected_concepts = ["risk"]
     norm_style = ["mean"]

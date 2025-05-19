@@ -64,12 +64,12 @@ def risk_function_dataset(data_path: str,
             # )
 
             risk_prompt = (
-                f"{user_tag}Based on the financial scenario above, suggest an investment strategy that embraces a high-risk approach aiming for higher returns.\n"
+                f"{user_tag}Based on the financial scenario below, suggest an investment strategy that embraces a high-risk approach aiming for higher returns.\n"
                 f"{assistant_tag}{truncated_statement}\n{closing_tag}"
             )
             # Create a non-risk prompt using the truncated statement
             non_risk_prompt = (
-                f"{user_tag}Based on the financial scenario above, suggest an investment strategy that prioritizes low-risk and stable returns.\n"
+                f"{user_tag}Based on the financial scenario below, suggest an investment strategy that prioritizes low-risk and stable returns.\n"
                 f"{assistant_tag}{truncated_statement}\n{closing_tag}"
             )
             
